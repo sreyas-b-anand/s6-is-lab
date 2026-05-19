@@ -45,8 +45,6 @@ if not isprime(p) or not isprime(q):
     exit()
 
 n = p * q
-n = p*q
-
 
 public_key , private_key = generate_keys()
 
