@@ -1,5 +1,4 @@
 def vigenere(text, key, mode="encrypt"):
-    
     text = text.upper().replace(" ", "")
     key  = key.upper()
     out = ""

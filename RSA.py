@@ -23,17 +23,13 @@ def generate_keys():
 
 def encrypt(M:int , public_key:tuple[int , int]):
     e , n = public_key
-    
     cipher = pow(M , e , n) 
-    
     return cipher
 
 
 def decrypt(C:int , private_key:tuple[int , int]):
     d , n = private_key
-    
     plain = pow(C , d , n) 
-    
     return plain
 
 
